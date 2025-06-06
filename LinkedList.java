@@ -3,7 +3,7 @@ import java.util.*;
 class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        LinkedList<Integer> list = new LinkedList<>();
+        LinkedList<Integer> list = new LinkedList<>();//
         int choice, val;
 
         while (true) {
@@ -79,7 +79,7 @@ class Main {
                     if (indexInsert >= 0 && indexInsert <= list.size()) {
                         System.out.print("Enter data to insert: ");
                         int num = sc.nextInt();
-                        list.add(indexInsert, num);
+                        list.add(indexInsert, num);//
                         System.out.println(num + " is inserted at index " + indexInsert);
                     } else {
                         System.out.println("Invalid index!");
